@@ -1,0 +1,122 @@
+.nav{
+    height: 10%;
+}
+.search{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.color{
+    background: rgb(238, 238, 238);
+
+}
+nav{
+    height: 50px;
+
+}
+
+.row .col-8 img{
+    height: 100%;
+    width:100%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.nopadding > div[class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wid{
+    max-width: max-content;
+}
+.hei{
+    height: 70px;
+}
+.timg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   }
+
+.list-group img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+body{
+    overflow: hidden;
+}
+
+.over-flow{
+    overflow-y:scroll;
+    height: 100vh;
+    
+}
+.over-flow1{
+   
+    overflow-y: hidden;
+
+}
+.smal{
+    padding-left: 3.7em;
+    padding-top: 0; 
+}
+.cen{
+    padding-top: 2em;
+}
+.notification{
+    padding-top:2px;
+    padding-left: 10px;
+    
+}
+.sastry{
+    height: 60px;
+    
+}
+.sastry img{
+    padding-left: 0px;
+    height: 8%;
+    width: 25%;
+}
+.bg-text{
+    background-color: rgb(89, 89, 245);
+    float: right;
+    width: fit-content;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5%;
+}
+
+.sender-text{
+    background-color: white;
+    float: left;
+    width: fit-content;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5%;
+
+}
+
+.chatbox{
+
+    background-color: rgb(229, 221, 213)
+}
+
+small{
+    padding-left: 50px;
+}
+
+.searchbox{
+    width: 100%;
+    padding-top: 20px;
+   
+}

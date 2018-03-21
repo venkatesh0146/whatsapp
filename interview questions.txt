@@ -1,0 +1,123 @@
+1) what types of collections you have used in your project.
+2) How to intialize objects in List with in a single line
+3) what is the serialization and what is the use , how can we implement serialization manually, 
+4) what is the serialversion Id,if we are not giving serialversion id what will happen?
+5) Hashmap internal funtinality 
+6) what is the problem with LinkedList,how can we avoid the problem
+7) Catch block exception handle hierarchy 
+8) when we are going to use throws and throw keyword
+9) how to implement sysnchronization.
+10) How to migrate spring and hibenate
+11) what is meant by ContextconfigListener
+12) Maven lifecycle methods, how to compile the maven project
+13) how to write Junit Test cases.
+14) what are all inner classes and what is the use of inner classes.
+15) difference between comparable and comparator
+16) how to sort the custome object
+17) what is use of hashcode and equals 
+18) can constructor call while serialization and deserialization ?
+19) Generator classes in hibernate ?
+20) how to do Junit Testing ?
+21) what is the use of ContextLoaderListener in web.xml?
+22) Get the 2nd element in the Set
+23) how to Create Singleton class?
+24) can we inject private constructor object using spring depencies ?
+25) can you write your own arraylist and hashset implementation?
+26) explain Garabase collector funtionality
+27) How to implement Transactioins in spring applications and how to rolleback the records.
+28) how to override the hashcode and equals methos and usage
+29) can we implement the web applications without web.xml and springContext.xml
+30) how to get properties files data in jsp using spring.
+31) Implicit objects in jsp
+32) Difference between forward and sendRedirect.
+33) Explain OOPS concept.
+34) can we overload the private final methods and private methods.
+35) how to configure Many-to-many relationship and one-to-many relationship in hibernate.
+36) what is difference between load and get method in hibernate.
+37) how many generator classes in hibernate.
+38) Explain about inheritence concepts in hibernate
+39) Difference between local cache and Global session.
+40) servlet life cycle methods
+41) jsp life cycle methods
+42) TELL ME JSTL tags.
+43) how many action classess and form classes in struts.
+44) Explain struts workflow and spring workflow.
+45) Difference between abstraction and interface.
+46) tell me about compiletime and runtime polymorpism.
+47) Explain checked and unchecked exceptions.
+48) How many ways we can create threads.
+49) what are all methods in thread class.
+50) what are all methods in Objects class.
+51) how to implement dependecny injection with out spring application.( using poji and pojo model)
+52) how to create api like spring (ans: using Reflection api).
+53) how to implement the logic in set to accept duplicate elements.
+54) how to sort the employee object based on fields.
+55) what is difference between comparable and comparator
+56) what are the methods in comparable and comparator
+57) tell me below cases
+
+	String s = "nari";
+	String s1 = new String ("nari");
+	String s2 = "nari";
+	String s3 = new String("nari");
+	String s4 = new String("narim");
+	StringBuilder sb = new StringBuilder("nari");
+	if(sb.equals(s)){
+		System.out.println("sb object data same");
+	} else {
+		System.out.println("sb object data not same");
+	}
+	System.out.println(s.hashCode());
+	System.out.println(s1.hashCode());
+	System.out.println(s4.hashCode());
+
+	if(s.hashCode() == s1.hashCode()){
+		System.out.println("hashcode s s1 equal");
+	} else{
+		System.out.println("hashcode not s s1 equal");
+	}
+	
+	if(s.hashCode() == s2.hashCode()){
+		System.out.println("hashcode equal");
+	}
+	if(s.equals(s1)){
+		System.out.println("content same");
+	}
+	if(s == s1){
+		System.out.println("objects are same");
+	} else {
+		System.out.println("object not same");
+	}
+	
+	if(s == s2){
+		System.out.println("objects are same");
+	} else {
+		System.out.println("object not same");
+	}
+	if(s1 == s2){
+		System.out.println("objects are same");
+	} else {
+		System.out.println("object not same");
+	}
+	if(s1.equals(s3)){
+		System.out.println("objects content same");
+	}
+
+
+58) if we are not configure DispatcherServlet in web.xml what will happen?
+59) write a code for string reverse and palindram .
+60) explain spring annotations.
+61) what are classes and interfaces in jdbc.
+62) difference between statement and preparestatement.
+63) what is the relationship between application and servletcontext
+64) difference between servletconfig and servletcontext.
+65) what is mean by triggers?
+66) Many to many retionship in hibernate.
+67) how to pass DAO layer exception to the controller
+68) what is the marker interface, can we implement manually , if can how to register with jvm like default marker interface?
+69) what is serialization , can we acheive with the database sharing data? then what is purpose of serialization?
+70) is servlet is single ton? Ans: No
+71) is it mandatory to write @table and @Entity annotations in hibernate
+	Ans) @table is mandatory when table name and class names are not same. but @Entity is always madatory.
+72) can we declare concrete methods as a final in abstract class.
+73) Explain Spring Exception handling.
